@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <style>
+        .container {
+            display: flex;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            color: rgb(255, 132, 0);
+            border: 2px solid red;
+
+        }
+
+        .container1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <form action="submitresponse.html">
+            <!--action is the place where the submit response goes to the action attribute and process to the other webpage whether the response is submitted-->
+
+            <pre>
+Name     : <input type="text" value="Preetham">
+Place    : <input type="text" value="Manchana" >
+Email    : <input  type="email" value="man@gmail.com">
+Password : <input type="password" value="p@123">
+Mobile no: <input type="tel" value="(901)-648-6251">
+SSN no   : <input type="number" value="1234">
+<input type="submit">
+<input type="button" value="click">
+
+<div class="Container1">
+    <input type="reset" >
+    <input type="color">
+    <input type="hidden">
+
+    Male:<input type="radio" name="gender">
+    Female:<input type="radio" name="gender">
+
+    Choose a place:
+    <select multiple>
+      <option>Bangalore</option>
+      <option>Hyderabad</option>
+      <option>Goa</option>
+      </select>
+</div>
+        </pre>
+        </form>
+    </div>
+    <textarea rows="10" cols="10">
+
+</textarea>
+
+</body>
+
+</html>

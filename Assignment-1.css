@@ -1,0 +1,26 @@
+.Dummy{
+    background-color: brown;
+    margin: 0px;
+}
+
+html{
+    border: 2px;
+    width: 50rem;
+    height: 15rem;
+    border-color: black;
+    border-style: solid;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
+}
+
+.Bunny{
+   color: green;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+   text-align: left;
+
+
+  
+}
+
